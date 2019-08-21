@@ -165,8 +165,8 @@ function Pet(attributes) {
   (this.newName = attributes.name),
     (this.newSpecies = attributes.species),
     (this.newPronoun = attributes.pronoun),
-    (this.newFavFood = attributes.favFood);
-  this.newSound = attributes.sound;
+    (this.newFavFood = attributes.favFood),
+    (this.newSound = attributes.sound);
 }
 
 // prototype
