@@ -37,6 +37,7 @@ function CharacterStats(stats) {
   GameObject.call(this, stats);
 
   this.healthPoints = stats.healthPoints;
+  this.miss = stats.miss;
 }
 
 CharacterStats.prototype = Object.create(GameObject.prototype);
