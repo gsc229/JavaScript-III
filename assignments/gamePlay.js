@@ -49,7 +49,7 @@ const introducePlayers = function(hero, villain) {
 };
 
 const setFirstPlayer = function(hero, villain) {
-  if (Math.ceil(Math.random() * 1) === 1) {
+  if (Math.ceil(Math.random() * 2) === 1) {
     console.log(`Heads, ${hero.name} goes first!`);
     setTimeout(function() {
       heroMove(hero, villain);
@@ -211,7 +211,7 @@ const villainAction = function(hero, villain) {
       console.log(
         `${villain.name} nails ${hero.name} in the ${
           hero.bodyParts[0]
-        } with his ${hero.weapons}. ${hero.name}'s health goes down to ${
+        } with his ${villain.weapons}. ${hero.name}'s health goes down to ${
           hero.healthPoints
         }. ${villain.name} wins!`
       );
