@@ -1,17 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assignments/assets/index.css" />
+    <title>JS III</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Mr+Dafoe|Tangerine:700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="this.js"></script> -->
+    <script src="prototypes.js"></script>
+    <script src="/assignments/player.js"></script>
+    <script src="/assignments/gamePlay.js"></script>
+    <!-- <script src="prepareNotes.js"></script> -->
+    <!-- <script src="prepareNotes2.js"></script> -->
+    <!-- <script src="guidedNotes.js"></script>
+    <script src="guidedNotes2.js"></script> -->
+  </head>
 
-  <title>JS III</title>
-
-  <script src="this.js"></script>
-  <script src="prototypes.js"></script>
-</head>
-
-<body>
-<h1>JS III - Check your work in the console!</h1>
-</body>
+  <body>
+    <div class="container">
+      <h1 id="welcome">Welcome to Game of Thrones!</h1>
+      <h2 id="blurb">Blurb Text</h2>
+      <iframe
+        id="gif"
+        src="https://giphy.com/embed/YqtCjOYr9qRhj9hu7w"
+        width="480"
+        height="270"
+        frameBorder="0"
+        class="giphy-embed"
+        allowFullScreen
+      ></iframe>
+      <p>
+        <a
+          href="https://giphy.com/gifs/gameofthrones-game-of-thrones-hbo-season-eight-YqtCjOYr9qRhj9hu7w"
+          >via GIPHY</a
+        >
+      </p>
+      <h2 id="result"></h2>
+      <button id="startButton" onclick="introducePlayers(jonSnow, kingJoffrey)">
+        Start
+      </button>
+      >
+    </div>
+  </body>
 </html>
