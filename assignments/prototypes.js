@@ -19,6 +19,7 @@ function GameObject(attritbutes) {
   this.createdAt = attritbutes.createdAt;
   this.name = attritbutes.name;
   this.dimensions = attritbutes.dimensions;
+  this.gamePhotos = attritbutes.gamePhotos;
 }
 
 GameObject.prototype.destroy = function() {
@@ -140,6 +141,7 @@ function Villain(atts) {
   this.sonOrDau = atts.sonOrDau;
   this.title = atts.title;
   this.home = atts.home;
+  this.photos = atts.photos;
 }
 
 function Hero(atts) {
@@ -150,4 +152,5 @@ function Hero(atts) {
   this.sonOrDau = atts.sonOrDau;
   this.title = atts.title;
   this.home = atts.home;
+  this.photos = atts.photos;
 }
