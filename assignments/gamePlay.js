@@ -479,8 +479,6 @@ const villainAction = function(hero, villain) {
   }
 };
 
-introducePlayers(jonSnow, kingJoffrey);
-
 // for (let i = 0; i < jonSnow.healthPoints + 1; i++) {
 //   console.log(`${jonSnow.name} health points: ${jonSnow.healthPoints}`);
 // }
